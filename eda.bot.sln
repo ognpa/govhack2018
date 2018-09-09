@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eda.bot", "eda.bot\eda.bot.csproj", "{E60947FE-BF31-4437-A604-A0B3C68FFA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eda.console", "eda.console\eda.console.csproj", "{E8A0FC6F-2DC1-4C47-9496-DAED02144C8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E60947FE-BF31-4437-A604-A0B3C68FFA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60947FE-BF31-4437-A604-A0B3C68FFA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60947FE-BF31-4437-A604-A0B3C68FFA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60947FE-BF31-4437-A604-A0B3C68FFA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A0FC6F-2DC1-4C47-9496-DAED02144C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A0FC6F-2DC1-4C47-9496-DAED02144C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A0FC6F-2DC1-4C47-9496-DAED02144C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A0FC6F-2DC1-4C47-9496-DAED02144C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9955846-2417-4D97-A26D-DDBADB3F43B4}
+	EndGlobalSection
+EndGlobal

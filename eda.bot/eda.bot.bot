@@ -1,0 +1,26 @@
+{
+    "name": "eda.bot",
+    "description": "",
+    "version": "2.0",
+    "secretKey": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "eda.bot",
+            "id": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "luis",
+            "id": "bc0d4ac8-ce59-4d0d-b809-cdd56c20e755",
+            "name": "eda2018",
+            "version": "0.1",
+            "appId": "bc0d4ac8-ce59-4d0d-b809-cdd56c20e755",
+            "authoringKey": "c5a24d8373624f2a8fc63ed9f342da7d",
+            "subscriptionKey": "c5a24d8373624f2a8fc63ed9f342da7d",
+            "region": "westus"
+        }
+    ]
+}
