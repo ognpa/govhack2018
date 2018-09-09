@@ -15,7 +15,7 @@ using eda.bot.eda;
 namespace eda.bot.Dialogs
 {
 
-    [LuisModel(modelID: "bc0d4ac8-ce59-4d0d-b809-cdd56c20e755", subscriptionKey: "bf7cff16eb1342e0a597360770c63580")]
+    [LuisModel(modelID: "", subscriptionKey: "")]
     [Serializable]
     public class EdaLuisDialog : LuisDialog<object>
     {
