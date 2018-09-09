@@ -10,9 +10,9 @@ namespace eda.bot
 {
     public class SearchDatasets
     {
-        // https://govhack2018search.search.windows.net/indexes/documentdb-index/docs?api-version=2017-11-11&api-key=093625B8319F2E241444DD9861F69BB4&search=energy
+        // https://govhack2018search.search.windows.net/indexes/documentdb-index/docs?api-version=2017-11-11&api-key=&search=energy
         private readonly string searchServiceName = "govhack2018search"; //ConfigurationManager.AppSettings["SearchServiceName"];
-        private readonly string queryApiKey = "093625B8319F2E241444DD9861F69BB4";//ConfigurationManager.AppSettings["SearchServiceQueryApiKey"];
+        private readonly string queryApiKey = "";//ConfigurationManager.AppSettings["SearchServiceQueryApiKey"];
         private readonly string searchIndexName = "documentdb-index";
 
 
